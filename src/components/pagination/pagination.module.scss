@@ -1,0 +1,24 @@
+@import '../../sass/fontFamilies.scss';
+
+.paginationWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .pagination{
+        display: flex;
+        .pageItem{
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ebebeb;
+            font-size: 1rem;
+            font-family: $poppinsRegular;
+            &:hover{
+                border: 1px solid #f78396;
+            }
+        }
+    }
+}
